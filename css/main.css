@@ -1,0 +1,22 @@
+table {
+  margin: auto;
+  margin-top: 250px;
+}
+.cell {
+  background-color: beige;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+.cell-btn {
+  width: 50px;
+  height: 50px;
+  border-left: 1px solid rgb(104, 102, 102);
+  border-top: 1px solid rgb(104, 102, 102);
+}
+.cell-btn:hover {
+  background-color: aqua;
+}
+.cell-btn:active {
+  background-color: rgb(116, 211, 211);
+}
