@@ -9,12 +9,27 @@
     <title>Minesweeper</title>
 </head>
 
-<body onload="initGame()">
-    <table>
-        <tbody class="board">
+<body onload="initGame()" oncontextmenu="return false">
+    <div class="main-container">
+        <h1 class="header">MINE SWEEPER</h1>
+        <button class="lvl-btn" onclick="levelSetting(1)">EASY</button>
+        <button class="lvl-btn" onclick="levelSetting(2)">HARD</button>
+        <button class="lvl-btn" onclick="levelSetting(3)">EXTREME</button>
 
-        </tbody>
-    </table>
+        <div class="reset">
+            <button class="reset-btn" onclick="initGame()">😇</button>
+        </div>
+        <div class="timer">Timer: 0</div>
+        <div class="lives-hints-counters">
+            <h1 class="lives">lives: 3</h1>
+        </div>
+        <table>
+            <tbody class="board">
+
+            </tbody>
+        </table>
+    </div>
+
 
 
 
